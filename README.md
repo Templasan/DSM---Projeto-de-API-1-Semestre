@@ -347,7 +347,7 @@ https://github.com/
     <td>Gabriel de Oliveira Gonçalves</td>
     <td>ST</td>
     <td><a href="https://github.com/GabrielOIiveiraGoncalves">Github</a></td>
-    <td><a href="https://br.linkedin.com/in/gabriel-oliveira-13b201281"></a>LinkedIn</td>
+    <td><a href="https://br.linkedin.com/in/gabriel-oliveira-13b201281">LinkedIn</a></td>
   </tr>
     <tr>
     <td>Pedro Miguel Fernandes do Nascimento</td>
