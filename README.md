@@ -311,50 +311,60 @@ https://github.com/
     <th><b>Nome</b></th>
     <th><b>Função</b></th>
     <th><b>Github</b></th>
+    <TH><b>LinkedIn</b></TH>
   </tr>
   <tr>
     <td>João Victor Dos Reis Santos</td>
     <td>PO</td>
     <td><a href="https://github.com/Templasan">Github</a></td>
+    <td><a href="">LinkedIn</a></td>
   </tr>
   <tr>
     <td>Lucas Inácio de Carvalho</td>
     <td>SM</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/Lukitta013">Github</a></td>
+    <td><a href="">Github</a></td>
   </tr>
   <tr>
     <td>Pedro Henrique Alkimim</td>
     <td>ST</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/PedroAlkmim">Github</a></td>
+    <td><a href="">LinkedIn</a></td>
   </tr>
   <tr>
     <td>Kaique Henrique Silva Pinto</td>
     <td>ST</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/kaiquehsp">Github</a></td>
+    <td><a href="https://www.linkedin.com/in/kaiquehenrique/">LinkedIn</a></td>
   </tr>
   <tr>
     <td>Enrico de Chiara Germano</td>
     <td>ST</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/EnricoGermano">Github</a></td>
+    <td><a href="https://www.linkedin.com/in/enrico-de-chiara-germano-022894204?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></td>
   </tr>
     <tr>
     <td>Gabriel de Oliveira Gonçalves</td>
     <td>ST</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/GabrielOIiveiraGoncalves">Github</a></td>
+    <td><a href="https://br.linkedin.com/in/gabriel-oliveira-13b201281"></a>LinkedIn</td>
   </tr>
     <tr>
     <td>Pedro Miguel Fernandes do Nascimento</td>
     <td>ST</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/P3dr0213">Github</a></td>
+    <td><a href="https://www.linkedin.com/in/pedro-miguel-329ab9304?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a></td>
   </tr>
     <tr>
     <td>Leonardo da Silva Lopes Bezerra</td>
     <td>ST</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/leodaslb">Github</a></td>
+    <td><a href="">LinkedIn</a></td>
   </tr>
     <tr>
     <td>Laura Félix</td>
     <td>ST</td>
-    <td><a href="https://github.com/">Github</a></td>
+    <td><a href="https://github.com/lauraflx">Github</a></td>
+    <td><a href="https://www.linkedin.com/in/laura-f-382985351?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app">LinkedIn</a></td>
   </tr>
 </table>
