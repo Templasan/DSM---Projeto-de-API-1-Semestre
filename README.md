@@ -126,7 +126,9 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 
 <h1 align="center"><samp>Tecnologias utilizadas</samp></h1>
 
-![](/docmedia/TecnologiaUtilizadas.png)
+<img src="/docmedia/TecnologiasUtilizadas.png" style="width: 100%; align=center;">
+
+
 
 <table align="center">
   <tr>
