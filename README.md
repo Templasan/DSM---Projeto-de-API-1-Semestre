@@ -395,12 +395,9 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 
 <h3 align="center">Protótipo no Figma</h3>
 
-https:
+https://github.com/user-attachments/assets/0397777d-11c4-4273-8ff9-f84d585af613
 
-<p></p>
-
-https://github.com/
-
+<h4 align="center"> <a  href="https://www.figma.com/proto/C04oydRJFufFdjyn4FdukI/Untitled?node-id=114-110&p=f&t=YJ6yX9hP3SXE85a2-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=114%3A110"> Ver no Figma! </a> </h4>
 
 
 <h2 align="center"><samp>TIME</samp></h2>
@@ -425,10 +422,10 @@ https://github.com/
     <td><a href="">Github</a></td>
   </tr>
   <tr>
-    <td>Pedro Henrique Alkimim</td>
+    <td>Pedro Henrique Alkmim</td>
     <td>ST</td>
     <td><a href="https://github.com/PedroAlkmim">Github</a></td>
-    <td><a href="">LinkedIn</a></td>
+    <td><a href="https://www.linkedin.com/in/pedro-alkmim-168690358/">LinkedIn</a></td>
   </tr>
   <tr>
     <td>Kaique Henrique Silva Pinto</td>
