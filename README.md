@@ -322,7 +322,7 @@ https://github.com/
   <tr>
     <td>Lucas Inácio de Carvalho</td>
     <td>SM</td>
-    <td><a href="https://github.com/Lukitta013">Github</a></td>
+    <td><a href="https://github.com/Lukitta013">LinkedIn</a></td>
     <td><a href="">Github</a></td>
   </tr>
   <tr>
