@@ -1,0 +1,4 @@
+pip install pymysql
+pip install mysqlclient
+pip install flask-mysql
+pip install flask
