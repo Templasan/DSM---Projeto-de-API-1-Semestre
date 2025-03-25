@@ -193,7 +193,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>1</td>
     <td>Alta</td>
     <td>Como cliente, eu quero um protótipo visual do site para que eu possa validar o design e garantir que ele atenda às minhas expectativas antes do desenvolvimento completo.</td>
-    <td>RF_1, RF_4, RNF_2</td>
+    <td><ul><li>RF_1</li><li>RF_4</li><li>RNF_2</li></td>
     <td><ul><li>O protótipo deve exibir a estrutura principal e os fluxos de navegação (RF_1) conforme acordado.</li><li>Deve conter elementos visuais que demonstrem a apresentação dos dados e funcionalidades 	principais (RF_4).</li><li>A interface precisa ser clara e consistente, atendendo aos padrões de usabilidade e responsividade definidos (RNF_2).</li><li>O cliente deve conseguir fornecer feedback direto com 	base no protótipo apresentado.</li></ul>
     <td>1</td>
     <td>Pendente</td>
@@ -202,7 +202,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>1</td>
     <td>Alta</td>
     <td>Como empreendedor, quero poder fazer consultas nos dados de importação/exportação para saber onde investir.</td>
-    <td>RF_2, RF_8, RNF_3</td>
+    <td><li>RF_2</li><li>RF_8</li><li>RNF_3</li></td>
     <td><ul><li>O sistema deve permitir consultas sobre dados de importação/exportação de forma intuitiva (RF_2).</li><li>Deve ser possível identificar insights e padrões que ajudem na decisão de investimento (RF_8).</li><li>A pesquisa e exibição dos resultados devem ser realizadas de forma eficiente e com alta performance (RNF_3).</li></ul></td>
     <td>1</td>
     <td>Pendente</td>
@@ -211,7 +211,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>3</td>
     <td>Média</td>
     <td>Como entusiasta, eu quero uma ferramenta de pesquisa funcional que me permita buscar dados de importação/exportação de forma simples e eficiente.</td>
-    <td>RF_2, RNF_3</td>
+    <td><li>RF_2</li><li>RNF_3</li></td>
     <td> <ul>
     <li>A ferramenta deve permitir a realização de pesquisas com termos-chave e filtros básicos (RF_2).</li><li>Os resultados devem ser apresentados rapidamente e sem erros, garantindo eficiência (RNF_3).</li><li>A 	interface deve ser intuitiva para usuários não especializados.</li></ul></td>
     <td>1</td>
@@ -421,7 +421,7 @@ https://github.com/user-attachments/assets/0397777d-11c4-4273-8ff9-f84d585af613
     <td>Lucas Inácio de Carvalho</td>
     <td>SM</td>
     <td><a href="https://github.com/Lukitta013">Github</a></td>
-    <td><a href="">Github</a></td>
+    <td><a href="">LinkedIn</a></td>
   </tr>
   <tr>
     <td>Pedro Henrique Alkmim</td>
