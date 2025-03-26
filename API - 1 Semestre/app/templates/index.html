@@ -1,81 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pesquisar Produto por ID</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f4f4f9;
-        }
-        .container {
-            background-color: #fff;
-            padding: 20px;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
-            width: 300px;
-        }
-        h2 {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-        input[type="text"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            background-color: #4CAF50;
-            border: none;
-            color: white;
-            font-size: 16px;
-            border-radius: 4px;
-            cursor: pointer;
-        }
-        input[type="submit"]:hover {
-            background-color: #45a049;
-        }
-        .produto-info {
-            margin-top: 20px;
-        }
-        .produto-info p {
-            font-size: 14px;
-            margin-bottom: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>HTML e CSS do KayTrack</title>
+  <link rel="stylesheet" href="\API - 1 Semestre\app\Views\Styles\styles.css" />
 </head>
 <body>
 
-<div class="container">
-    <h2>Pesquisar Produto</h2>
-    <form action="/pesquisar-produto" method="GET">
-        <label for="productId">ID do Produto:</label>
-        <input type="text" id="productId" name="productId" placeholder="Digite o ID do produto" required>
-        <input type="submit" value="Pesquisar">
-    </form>
+  <!-- Isso que vê o estado do aside -->
+  <input type="checkbox" id="toggle-sidebar" />
 
-    {% if produto %}
-    <div class="produto-info">
-        <h3>Produto Encontrado:</h3>
-        <p><strong>Nome:</strong> {{ produto.nome }}</p>
-        <p><strong>Preço:</strong> R$ {{ produto.preco }}</p>
-        <p><strong>Descrição:</strong> {{ produto.descricao }}</p>
+  <nav class="navbar">
+    <label for="toggle-sidebar" class="toggle-btn open-btn">
+      &#9776; <!-- Ícone três barras -->
+    </label>
+
+    <div class="logo logo-nav">
+      <img src="\API - 1 Semestre\app\Views\Img\logokay.svg" alt="Logo KayTrack" />
+      <h1>KayTrack</h1>
     </div>
-    {% elif produto is not none %}
-    <p>Produto não encontrado.</p>
-    {% endif %}
-</div>
+
+    <ul class="nav-links">
+      <li><a href="#">Mapa</a></li>
+      <li><a href="#">Gráficos</a></li>
+      <li><a href="#">Pesquisa avançada</a></li>
+    </ul>
+  </nav>
+
+  <aside class="sidebar">
+    <label for="toggle-sidebar" class="toggle-btn close-btn">
+      &times; <!-- Ícone de X -->
+    </label>
+
+    <div class="logo logo-aside">
+      <img src="\API - 1 Semestre\app\Views\Img\logokay.svg" alt="Logo KayTrack" />
+      <h2>KayTrack</h2>
+    </div>
+
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar...">
+      <button>
+        <img src="\API - 1 Semestre\app\Views\Img\search.svg" alt="Buscar">
+      </button>
+    </div>
+
+    <div class="sidebar-content">
+      <div class="search-results">
+        <div class="result-item">Resultado 1...</div>
+        <div class="result-item">Resultado 2...</div>
+        <div class="result-item">Resultado 3...</div>
+        <div class="result-item">Resultado 4...</div>
+      </div>
+    </div>
+
+  </aside>
+
+  <main class="main-content">
+    <img src="\API - 1 Semestre\app\Views\Img\mapa.svg" alt="mapa">
+  </main>
+
+
+  <footer class="footer">
+    <p>&copy; 2025 KayTrack. Todos os direitos reservados.</p>
+    <p>Este site não pertence a nenhuma entidade governamental.</p>
+  </footer>
 
 </body>
 </html>
+

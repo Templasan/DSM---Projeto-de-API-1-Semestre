@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de Dados de Comércio</title>
+  <!-- Bootstrap 5.3 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- CSS customizado -->
+  <link rel="stylesheet" href="styles/estilo.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header class="container my-4">
+    <h1 class="text-center">Consulta de Dados de Comércio</h1>
+    <p class="text-center">Ferramenta para análise de exportação e importação com filtros, rankings e gráficos.</p>
+  </header>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Comércio Dados</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#filtros">Consulta</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#ranking">Ranking</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#graficos">Gráficos</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Conteúdo Principal -->
+  <main class="container my-4">
+
+    <!-- Seção de Filtros e Pesquisa -->
+    <section id="filtros" class="mb-5">
+      <h2>Filtros de Pesquisa</h2>
+      <form action="#" method="GET">
+        <div class="row g-3">
+          <!-- Campo de pesquisa -->
+          <div class="col-md-4">
+            <label for="busca" class="form-label">Pesquisar</label>
+            <input type="text" class="form-control" id="busca" name="busca" placeholder="Digite o termo da pesquisa">
+          </div>
+          <!-- Filtro por Região Metropolitana -->
+          <div class="col-md-4">
+            <label for="regiaoMetropolitana" class="form-label">Região Metropolitana</label>
+            <select class="form-select" id="regiaoMetropolitana" name="regiaoMetropolitana">
+              <option value="">Selecione</option>
+              <option value="regiao1">Região 1</option>
+              <option value="regiao2">Região 2</option>
+              <option value="regiao3">Região 3</option>
+            </select>
+          </div>
+          <!-- Filtro por População -->
+          <div class="col-md-4">
+            <label for="populacao" class="form-label">População (ou porte)</label>
+            <input type="number" class="form-control" id="populacao" name="populacao" placeholder="Ex: 50000">
+          </div>
+        </div>
+        <div class="row g-3 mt-3">
+          <!-- Data de Início -->
+          <div class="col-md-6">
+            <label for="dataInicio" class="form-label">Data Início</label>
+            <input type="date" class="form-control" id="dataInicio" name="dataInicio">
+          </div>
+          <!-- Data Final -->
+          <div class="col-md-6">
+            <label for="dataFim" class="form-label">Data Fim</label>
+            <input type="date" class="form-control" id="dataFim" name="dataFim">
+          </div>
+        </div>
+        <div class="row mt-3">
+          <div class="col">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <!-- Tabela de Resultados -->
+    <section id="resultados" class="mb-5">
+      <h2>Resultados da Consulta</h2>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Município</th>
+            <th>Produto</th>
+            <th>Valor</th>
+            <th>Ano</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Exemplo de linha, os dados reais serão integrados via back-end/JavaScript -->
+          <tr>
+            <td>Exemplo Município</td>
+            <td>Produto A</td>
+            <td>R$ 1.000,00</td>
+            <td>2023</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Seção de Ranking -->
+    <section id="ranking" class="mb-5">
+      <h2>Ranking dos Municípios</h2>
+      <ul class="list-group">
+        <li class="list-group-item">1º Município - Exemplo</li>
+        <li class="list-group-item">2º Município - Exemplo</li>
+        <li class="list-group-item">3º Município - Exemplo</li>
+      </ul>
+    </section>
+
+    <!-- Seção de Gráficos -->
+    <section id="graficos" class="mb-5">
+      <h2>Gráficos Comparativos</h2>
+      <canvas id="graficoComparativo" width="400" height="200"></canvas>
+    </section>
+
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Comércio de Dados. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Bootstrap 5.3 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <!-- Chart.js para gráficos (opcional) -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script>
+    // Exemplo de inicialização do gráfico com Chart.js
+    const ctx = document.getElementById('graficoComparativo').getContext('2d');
+    const graficoComparativo = new Chart(ctx, {
+      type: 'bar',
+      data: {
+        labels: ['Município A', 'Município B', 'Município C'],
+        datasets: [{
+          label: 'Valor das Exportações',
+          data: [1200, 900, 1400],
+          backgroundColor: 'rgba(54, 162, 235, 0.5)',
+          borderColor: 'rgba(54, 162, 235, 1)',
+          borderWidth: 1
+        }]
+      },
+      options: {
+        scales: {
+          y: {
+            beginAtZero: true
+          }
+        }
+      }
+    });
+  </script>
+</body>
+</html>
