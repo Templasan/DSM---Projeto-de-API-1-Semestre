@@ -383,15 +383,109 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 
 <details>
 
-<table>
+<table border="1">
   <tr>
-	<td>Rank</td>
-	<td>Prioridade</td>
-	<td>User Story</td>
-	<td>Status</td>
+    <th>Rank</th>
+    <th>Prioridade</th>
+    <th>Tarefa</th>
   </tr>
-  
+  <tr>
+    <td>1</td>
+    <td>Alta</td>
+    <td>Figma</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Alta</td>
+    <td>Estudo Colab</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Alta</td>
+    <td>Estudo Pandas</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Média</td>
+    <td>Limpeza de Dados</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>Média</td>
+    <td>Estrutura de Dados</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>Média</td>
+    <td>Estudo sobre Análise de Dados</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>Média</td>
+    <td>Consulta dos Dados</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>Média</td>
+    <td>Expansão da Consulta</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>Média</td>
+    <td>SQL</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>Baixa</td>
+    <td>Estudar Biblioteca Matplotlib</td>
+  </tr>
+  <tr>
+    <td>11</td>
+    <td>Baixa</td>
+    <td>Comparação de Município</td>
+  </tr>
+  <tr>
+    <td>12</td>
+    <td>Baixa</td>
+    <td>Diversificação de Produtos</td>
+  </tr>
+  <tr>
+    <td>13</td>
+    <td>Baixa</td>
+    <td>Pesquisar Mudanças Econômicas Causadas por Política</td>
+  </tr>
+  <tr>
+    <td>14</td>
+    <td>Baixa</td>
+    <td>Fazer Comparativo entre 2 Períodos Econômicos</td>
+  </tr>
+  <tr>
+    <td>15</td>
+    <td>Baixa</td>
+    <td>Relação e Rastreio entre Cliente e Fornecedor (para qual país exporta)</td>
+  </tr>
+  <tr>
+    <td>16</td>
+    <td>Baixa</td>
+    <td>Representação Gráfica da Relação dos Países</td>
+  </tr>
+  <tr>
+    <td>17</td>
+    <td>Baixa</td>
+    <td>Criar um Documento Explicando o Risco da Falta de Diversidade de Exportação</td>
+  </tr>
+  <tr>
+    <td>18</td>
+    <td>Baixa</td>
+    <td>Análise da Sazonalidade</td>
+  </tr>
+  <tr>
+    <td>19</td>
+    <td>Baixa</td>
+    <td>Análise de Competitividade</td>
+  </tr>
 </table>
+
 
 </details>
 
