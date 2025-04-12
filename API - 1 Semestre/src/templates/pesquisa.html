@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>KayTrack-Pesquisa</title>
+  <link rel="stylesheet" href="\API - 1 Semestre\app\Views\Styles\styles.css" />
+</head>
+<body>
+
+  <!-- Isso que vê o estado do aside -->
+  <input type="checkbox" id="toggle-sidebar" />
+
+  <nav class="navbar">
+    <label for="toggle-sidebar" class="toggle-btn open-btn">
+      &#9776; <!-- Ícone três barras -->
+    </label>
+
+    <div class="logo logo-nav">
+      <img src="\API - 1 Semestre\app\Views\Img\logokay.svg" alt="Logo KayTrack" />
+      <h1>KayTrack</h1>
+    </div>
+
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="rankings.html">Rankings</a></li>
+        <li><a href="graficos.html">Gráficos</a></li>
+        <li><a href="artigos.html">Artigos</a></li>
+        <li><a href="pesquisa.html" class="active">Pesquisa Avançada</a></li>
+    </ul>
+  </nav>
+
+  <aside class="sidebar">
+    <label for="toggle-sidebar" class="toggle-btn close-btn">
+      &times; <!-- Ícone de X -->
+    </label>
+
+    <div class="logo logo-aside">
+      <img src="\API - 1 Semestre\app\Views\Img\logokay.svg" alt="Logo KayTrack" />
+      <h2>KayTrack</h2>
+    </div>
+
+    <div class="search-container">
+      <input type="text" placeholder="Pesquisar...">
+      <button>
+        <img src="\API - 1 Semestre\app\Views\Img\search.svg" alt="Buscar">
+      </button>
+    </div>
+
+    <div class="sidebar-content">
+      <div class="search-results">
+        <div class="result-item">Resultado 1...</div>
+        <div class="result-item">Resultado 2...</div>
+        <div class="result-item">Resultado 3...</div>
+        <div class="result-item">Resultado 4...</div>
+      </div>
+    </div>
+
+  </aside>
+
+  <main class="main-content">
+
+    <h1>Pesquisa Avançada</h1>
+
+  </main>
+
+  <footer class="footer">
+    <p>&copy; 2025 KayTrack. Todos os direitos reservados.</p>
+    <p>Este site não pertence a nenhuma entidade governamental.</p>
+  </footer>
+
+</body>
+</html>
