@@ -1,17 +1,93 @@
-<!-- templates/index.html -->
 {% extends "base.html" %}
 
 {% block title %}KayTrack - Home{% endblock %}
 
 {% block content %}
-<main class="main-content">
-  <section>
-    <h1>Estatísticas de Comércio Exterior</h1>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus alias quas doloribus numquam, sint dolorum molestias eaque voluptatibus inventore eos deserunt ad!</p>
-    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum molestias nisi nobis reprehenderit illum odit quis dicta alias repudiandae.</p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla dicta inventore reprehenderit fugiat quos, voluptas aperiam aliquid aspernatur vel at eos nobis harum accusamus eligendi perspiciatis ipsa, earum aut velit?</p>
+<main>
+
+  <!-- Seção de Introdução -->
+  <section class="hero">
+    <div class="container">
+      <h1>Bem-vindo à nossa API de Importação e Exportação</h1>
+      <p>Explore dados de comércio exterior do Brasil de forma fácil, rápida e visual.</p>
+      <a href="#tour" class="btn">Fazer um tour</a>
+    </div>
   </section>
 
-  <img src="{{ url_for('static', filename='img/mapa.svg') }}" alt="mapa">
+  <!-- Sobre o Projeto -->
+  <section id="sobre" class="section light">
+    <div class="container sobre-flex">
+      <div class="texto">
+        <h2>Sobre o Projeto</h2>
+        <p>Essa plataforma tem como objetivo democratizar o acesso aos dados de importação e exportação do Brasil, permitindo consultas por produto, país de origem/destino e períodos. Ideal para pesquisadores, estudantes e profissionais da área.</p>
+      </div>
+      <div class="imagem">
+        <img src="{{ url_for('static', filename='img/mapa.svg') }}" alt="Imagem representando comércio exterior">
+        <p class="legenda">Exemplo de mapa para o estado de São Paulo.</p>
+        <br>
+        <a href="#" class="btn">Veja o mapa completo</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gráficos -->
+  <section id="graficos" class="section">
+    <div class="container graficos-flex">
+      <div class="imagem">
+        <img src="{{ url_for('static', filename='img/grafico.png') }}" alt="Exemplo de gráfico gerado no Colab com Python">
+        <p class="legenda">Exemplo de gráfico gerado a partir dos dados da API.</p>
+        <br>
+        <a href="#" class="btn">Veja o gráfico completo</a>
+      </div>
+      <div class="texto">
+        <h2>Gráficos</h2>
+        <p>Para visualizar melhor os dados de importação e exportação, criamos gráficos interativos utilizando Python no Google Colab. Eles nos ajudam a identificar padrões, tendências e os principais produtos e países envolvidos nas transações comerciais do Brasil.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Funcionalidades -->
+  <section id="funcionalidades" class="section light">
+    <div class="container">
+      <h2>Funcionalidades</h2>
+      <ul>
+        <li>🔍 Busca por NCM (Nomenclatura Comum do Mercosul)</li>
+        <li>📊 Gráficos de exportação por região</li>
+        <li>🧮 Estatísticas por produto e país</li>
+        <li>📁 Download dos dados</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Tour pelo site -->
+  <section id="tour" class="section">
+    <div class="container">
+      <h2>Tour pelo site</h2>
+      <p>Navegue pelas seções para entender como utilizar cada funcionalidade:</p>
+      <div class="tour-grid">
+        <div class="tour-item">
+          <h3>🔍 Buscar Produto</h3>
+          <p>Acesse a aba "Buscar Produto" para pesquisar NCMs específicos e ver os dados detalhados de importação e exportação.</p>
+        </div>
+        <div class="tour-item">
+          <h3>📊 Estatísticas</h3>
+          <p>Visualize gráficos e tabelas interativas com filtros por ano, país, estado e tipo de produto.</p>
+        </div>
+        <div class="tour-item">
+          <h3>🌍 Relações Comerciais</h3>
+          <p>Veja os países com maior relação comercial com o Brasil e como esses dados mudam com o tempo.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="section light">
+    <div class="container">
+      <h2>Contato</h2>
+      <p>Em caso de dúvidas ou sugestões, envie um e-mail para <a href="mailto:supportKaytrack@gmail.com">supportKaytrack@gmail.com</a>.</p>
+    </div>
+  </section>
+
 </main>
 {% endblock %}
