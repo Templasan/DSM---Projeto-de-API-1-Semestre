@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,10 +9,6 @@
 <body>
     
 <header>
-    
-  <!-- Isso que vê o estado do aside -->
-  <input type="checkbox" id="toggle-sidebar" />
-
   <nav class="navbar">
     <label for="toggle-sidebar" class="toggle-btn open-btn">
       &#9776; <!-- Ícone três barras -->
@@ -24,41 +20,23 @@
     </div>
 
     <ul class="nav-links">
-        <li><a href="/" class="active">Home</a></li>
-        <li><a href="/rankings">Rankings</a></li>
-        <li><a href="/graficos">Gráficos</a></li>
-        <li><a href="/artigos">Artigos</a></li>
-        <li><a href="/pesquisa">Pesquisa Avançada</a></li>
+        <li><a href="/" id="idhome">Home</a></li>
+        <li><a href="/rankings" id="idrankings">Rankings</a></li>
+        <li><a href="/graficos" id="idgraficos">Gráficos</a></li>
+        <li><a href="/artigos" id="idartigos">Artigos</a></li>
+        <li><a href="/pesquisa" id="idpesquisa">Pesquisa</a></li>
     </ul>
   </nav>
+<nav>
+  <ul class="nav-mobile">
+    <li><a href="/" id="idhome">Home</a></li>
+    <li><a href="/rankings" id="idrankings">Rankings</a></li>
+    <li><a href="/graficos" id="idgraficos">Gráficos</a></li>
+    <li><a href="/artigos" id="idartigos">Artigos</a></li>
+    <li><a href="/pesquisa" id="idpesquisa">Pesquisa</a></li>
+  </ul>
+</nav>
 
-  <aside class="sidebar">
-    <label for="toggle-sidebar" class="toggle-btn close-btn">
-      &times; <!-- Ícone de X -->
-    </label>
-
-    <div class="logo logo-aside">
-      <img src="{{ url_for('static', filename='img/logokay.svg') }}" alt="Logo KayTrack" />
-      <h2>KayTrack</h2>
-    </div>
-
-    <div class="search-container">
-      <input type="text" placeholder="Pesquisar...">
-      <button>
-        <img src="{{ url_for('static', filename='img/logokay.svg') }}" alt="Buscar">
-      </button>
-    </div>
-
-    <div class="sidebar-content">
-      <div class="search-results">
-        <div class="result-item">Resultado 1...</div>
-        <div class="result-item">Resultado 2...</div>
-        <div class="result-item">Resultado 3...</div>
-        <div class="result-item">Resultado 4...</div>
-      </div>
-    </div>
-
-  </aside>
 </header>
 
 <main>
@@ -67,10 +45,9 @@
 </main>
 
 <footer>
-    <footer class="footer">
-        <p>&copy; 2025 KayTrack. Todos os direitos reservados.</p>
-        <p>Este site não pertence a nenhuma entidade governamental.</p>
-      </footer> 
-</footer>
+  <p>&copy; 2025 KayTrack. Todos os direitos reservados.</p>
+  <p>Este site não pertence a nenhuma entidade governamental.</p>
+</footer> 
+
 </body>
 </html>
