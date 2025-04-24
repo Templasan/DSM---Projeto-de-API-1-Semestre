@@ -1,4 +1,12 @@
-from flask import Flask, render_template
+from flask import Flask, render_template, request
+import pymysql
+from pymysql.cursors import DictCursor
+from bd_functions import get_db_connection, executar_consulta
+import plotly.graph_objs as go
+from plotly.offline import plot
+
+
+
 
 app = Flask(__name__)
 
@@ -6,9 +14,6 @@ app = Flask(__name__)
 def home():
     return render_template("index.html")
 
-@app.route("/rankings")
-def rankings():
-    return render_template("rankings.html")
 
 @app.route("/graficos")
 def graficos():
@@ -17,10 +22,106 @@ def graficos():
 @app.route("/artigos")
 def artigos():
     return render_template("artigos.html")
+    
 
-@app.route("/pesquisa")
+@app.route("/rankings", methods=["GET", "POST"])
+def rankings():
+    municipios = [row["MUN"] for row in executar_consulta(
+        "SELECT DISTINCT MUN FROM ranking_municipios ORDER BY MUN"
+    )]
+
+    graficos = {
+        "vl_fob": "",
+        "valor_agregado": "",
+        "evolucao_fob": "",
+        "kg_liquido": ""
+    }
+
+    if request.method == "POST":
+        municipio = request.form.get("municipio")
+
+        # 1. Top VL_FOB
+        dados_fob = executar_consulta(
+            "SELECT PRODUTO, VALOR FROM ranking_municipios WHERE MUN = %s AND tipo_ranking = 'TOP_VL_FOB' ORDER BY VALOR DESC LIMIT 5",
+            params=(municipio,)
+        )
+
+        if dados_fob:
+            produtos = [p if len(p) <= 30 else p[:27] + "..." for p in [item["PRODUTO"] for item in dados_fob]]
+            valores = [item["VALOR"] for item in dados_fob]
+            fig = go.Figure([go.Bar(x=produtos, y=valores, marker_color='indianred', 
+                            hovertext=[item["PRODUTO"] for item in dados_fob],hoverinfo="text+y")])
+            fig.update_layout(title="Top 5 por VL_FOB", xaxis_title="Produto", yaxis_title="VL_FOB", hovermode ='x')
+            graficos["vl_fob"] = plot(fig, output_type='div')
+
+        # 2. Top Valor Agregado Médio
+        dados_valor_agregado = executar_consulta(
+            "SELECT PRODUTO, VALOR FROM ranking_municipios WHERE MUN = %s AND tipo_ranking = 'TOP_MEDIA_VALOR_AGREGADO' ORDER BY VALOR DESC LIMIT 5",
+            params=(municipio,)
+        )
+
+        if dados_valor_agregado:
+            produtos = [p if len(p) <= 30 else p[:27] + "..." for p in [item["PRODUTO"] for item in dados_valor_agregado]]
+            valores = [item["VALOR"] for item in dados_valor_agregado]
+            fig = go.Figure([go.Bar(x=produtos, y=valores, marker_color='royalblue',
+                            hovertext=[item["PRODUTO"] for item in dados_valor_agregado],hoverinfo="text+y")])
+            fig.update_layout(title="Top 5 por Valor Agregado Médio", xaxis_title="Produto", yaxis_title="Valor Agregado")
+            graficos["valor_agregado"] = plot(fig, output_type='div')
+
+        # 3. Evolução Anual do VL_FOB
+        evolucao = executar_consulta(
+            "SELECT ANO, SUM(VALOR) AS TOTAL FROM ranking_municipios WHERE MUN = %s AND tipo_ranking = 'EVOLUCAO_ANUAL_VL_FOB' GROUP BY ANO ORDER BY ANO",
+            params=(municipio,)
+        )
+        if evolucao:
+            anos = [item["ANO"] for item in evolucao]
+            totais = [item["TOTAL"] for item in evolucao]
+            fig = go.Figure([go.Scatter(x=anos, y=totais, mode='lines+markers', line=dict(color='green'))])
+            fig.update_layout(title="Evolução Anual do VL_FOB", xaxis_title="Ano", yaxis_title="Soma VL_FOB")
+            graficos["evolucao_fob"] = plot(fig, output_type='div')
+
+        # 4. Top Volume (KG_LIQUIDO)
+        dados_volume = executar_consulta(
+            "SELECT PRODUTO, VALOR FROM ranking_municipios WHERE MUN = %s AND tipo_ranking = 'TOP_VOLUME_KG' ORDER BY VALOR DESC LIMIT 5",
+            params=(municipio,)
+        )
+
+        if dados_volume:
+            produtos = [p if len(p) <= 30 else p[:27] + "..." for p in [item["PRODUTO"] for item in dados_volume]]
+            valores = [item["VALOR"] for item in dados_volume]
+            fig = go.Figure([go.Bar(x=produtos, y=valores, marker_color='orange',
+                                    hovertext=[item["PRODUTO"] for item in dados_valor_agregado],hoverinfo="text+y")])
+            fig.update_layout(title="Top 5 por Volume (KG Líquido)", xaxis_title="Produto", yaxis_title="Volume")
+            graficos["kg_liquido"] = plot(fig, output_type='div')
+
+    return render_template("rankings.html", municipios=municipios, graficos=graficos)
+
+
+
+
+
+
+
+
+
+@app.route("/pesquisa", methods=["GET", "POST"])
 def pesquisa():
-    return render_template("pesquisa.html")
+    dados = []
+    if request.method == "POST":
+        anos = request.form.getlist("anos")
+        
+        if anos:
+            placeholders = ", ".join(["%s"] * len(anos))
+           
+            dados = executar_consulta(f"""
+                SELECT MUN, ANO, KG_LIQUIDO FROM ranking
+                WHERE ANO IN ({placeholders}) AND MUN IN ('SAO JOSE DOS CAMPOS','CAMPINAS','TAUBATE')
+                ORDER BY KG_LIQUIDO DESC
+                LIMIT 10
+            """, params=anos)
+
+    return render_template("pesquisa.html", dados=dados)
+
 
 if __name__ == "__main__":
     app.run(debug=True)
