@@ -52,7 +52,7 @@ def rankings():
             fig = go.Figure([go.Bar(x=produtos, y=valores, marker_color='indianred', 
                             hovertext=[item["PRODUTO"] for item in dados_fob],hoverinfo="text+y")])
             fig.update_layout(title="Top 5 por VL_FOB", xaxis_title="Produto", yaxis_title="VL_FOB", hovermode ='x')
-            graficos["vl_fob"] = plot(fig, output_type='div')
+            graficos["vl_fob"] = plot(fig, output_type='div')   
 
         # 2. Top Valor Agregado Médio
         dados_valor_agregado = executar_consulta(
