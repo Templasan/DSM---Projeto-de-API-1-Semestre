@@ -122,6 +122,26 @@ def pesquisa():
 
     return render_template("pesquisa.html", dados=dados)
 
+## Área de Igão.
+pdfs = {
+    1: 'pdfs/as.txt',
+    2: 'pdfs/rpv.txt',
+} 
+
+@app.route('/artigos/exartigo', methods=['POST'])
+def carregar_arquivo():
+    id_arquivo = int(request.form['id_arquivo'])
+
+    if id_arquivo in pdfs:
+        caminho = pdfs[id_arquivo]
+        with open(caminho, 'r', encoding='utf-8') as f:
+            dados = f.read().split('///')
+        return render_template('exartigos.html', dados=dados)
+    else:
+        
+        return "Arquivo não encontrado!", 404
+
+## fechamento
 
 if __name__ == "__main__":
     app.run(debug=True)
