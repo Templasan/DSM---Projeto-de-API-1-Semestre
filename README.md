@@ -196,16 +196,16 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>RF_1</li><li>RF_4</li><li>RNF_2</li></td>
     <td><ul><li>O protótipo deve exibir a estrutura principal e os fluxos de navegação (RF_1) conforme acordado.</li><li>Deve conter elementos visuais que demonstrem a apresentação dos dados e funcionalidades 	principais (RF_4).</li><li>A interface precisa ser clara e consistente, atendendo aos padrões de usabilidade e responsividade definidos (RNF_2).</li><li>O cliente deve conseguir fornecer feedback direto com 	base no protótipo apresentado.</li></ul>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
-    <td>1</td>
+    <td>2</td>
     <td>Alta</td>
     <td>Como empreendedor, quero poder fazer consultas nos dados de importação/exportação para saber onde investir.</td>
     <td><li>RF_2</li><li>RF_8</li><li>RNF_3</li></td>
     <td><ul><li>O sistema deve permitir consultas sobre dados de importação/exportação de forma intuitiva (RF_2).</li><li>Deve ser possível identificar insights e padrões que ajudem na decisão de investimento (RF_8).</li><li>A pesquisa e exibição dos resultados devem ser realizadas de forma eficiente e com alta performance (RNF_3).</li></ul></td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>3</td>
@@ -215,7 +215,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td> <ul>
     <li>A ferramenta deve permitir a realização de pesquisas com termos-chave e filtros básicos (RF_2).</li><li>Os resultados devem ser apresentados rapidamente e sem erros, garantindo eficiência (RNF_3).</li><li>A 	interface deve ser intuitiva para usuários não especializados.</li></ul></td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>4</td>
@@ -224,7 +224,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>RF_1, RNF_3</td>
     <td><ul><li>O sistema deve permitir a seleção de municípios para comparação (RF_1).</li><li>Os resultados devem ser apresentados em gráficos ou relatórios interativos.</li><li>A comparação deve ser realizada 	com base em indicadores econômicos relevantes e de forma clara (RNF_3).</li></ul></td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>5</td>
@@ -233,7 +233,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>RF_16, RF_5, RNF_3</td>
     <td><ul><li>O sistema deve coletar e apresentar dados que permitam visualizar a variedade de produtos comercializados (RF_16).</li><li>A análise deve destacar variações e tendências de diversificação (RF_5)</li><li>A apresentação dos resultados deve ser clara e interativa, facilitando a compreensão dos padrões (RNF_3).</li></ul></td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>6</td>
@@ -243,7 +243,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve identificar e destacar mercados emergentes com base em indicadores de crescimento (RF_15).</li><li>A visualização dos mercados emergentes deve ser intuitiva e atualizada, facilitando a análise (RNF_3).</li><li>O usuário deve conseguir filtrar por região ou setor, se necessário.</li></ul>
 </td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>7</td>
@@ -253,7 +253,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve exibir informações que relacionem mudanças em políticas com variações nos indicadores econômicos (RF_11).</li><li>Deve haver uma apresentação clara (gráficos ou relatórios) que evidencie o impacto (RF_1).</li><li>A informação deve ser apresentada de forma intuitiva, facilitando a análise pelo usuário (RNF_3).</li></ul>
 </td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
     <tr>
     <td>8</td>
@@ -263,7 +263,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve permitir a visualização de fluxos e relações entre os diversos elos da cadeia produtiva (RF_2).</li><li>O mapeamento deve ser apresentado por meio de diagramas ou gráficos interativos.</li><li>A interface deve facilitar a análise dos dados mapeados, garantindo clareza e acessibilidade (RNF_3).</li></ul>
 </td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>9</td>
@@ -273,7 +273,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve identificar e exibir indicadores de risco relacionados à baixa diversificação (RF_13).</li><li>A análise de risco deve ser apresentada de forma clara, permitindo a comparação com cenários de maior diversificação.</li><li>A visualização deve ser interativa e de fácil compreensão (RNF_3).</li></ul>
 </td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>10</td>
@@ -283,7 +283,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve listar e comparar diferentes vias de transporte (RF_14).</li><li>As informações devem incluir dados de custo, tempo e eficiência logística.</li><li>Os dados devem ser apresentados de forma clara e com a possibilidade de visualização gráfica (RNF_3).</li></ul>
 </td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>11</td>
@@ -293,7 +293,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve exibir dados históricos que permitam identificar diferenças entre cidades.H14 (RF_1).</li><li>As variações devem ser apresentadas em gráficos que evidenciem períodos de pico e de queda.</li><li>A ferramenta deve permitir a comparação entre diferentes períodos e anos, facilitando a análise (RNF_3).</li></ul>
 </td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>12</td>
@@ -303,7 +303,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve reunir indicadores que permitam avaliar a competitividade dos mercados locais (RF_12).</li><li>Deve ser possível comparar dados de concorrência e desempenho entre diferentes setores (RF_7).</li><li>A interface deve apresentar esses dados de forma interativa e acessível (RNF_3).</li></ul>
 </td>
     <td>1</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>13</td>
@@ -313,7 +313,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O design aprovado deve ser integrado com a funcionalidade de pesquisa (RF_10 e RF_9).</li><li>A integração deve garantir uma experiência de uso consistente e responsiva (RNF_2 e RNF_1).</li><li>A pesquisa deve funcionar de forma eficiente, retornando resultados precisos e relevantes (RNF_3).</li></ul>
 </td>
     <td>2</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>14</td>
@@ -323,7 +323,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve gerar gráficos interativos que ilustrem comparações entre diferentes conjuntos de dados (RF_10 e RF_9).</li><li>Os gráficos devem ser apresentados com clareza, utilizando cores, legendas e rótulos (RNF_2 e RNF_1).</li><li>O usuário deve poder interagir com os gráficos (ex.: filtrar, ampliar) para aprofundar a análise.</li></ul>
 </td>
     <td>2</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>15</td>
@@ -333,7 +333,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve utilizar dados históricos para gerar projeções futuras (RF_17).</li><li>As projeções devem ser apresentadas em gráficos ou relatórios claros e interativos (RNF_2 e RNF_1).</li><li>A margem de erro ou incerteza das projeções deve ser exibida, permitindo uma análise crítica (RNF_3).</li></ul>
 </td>
     <td>2</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>16</td>
@@ -363,7 +363,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>O sistema deve gerar rankings dinâmicos com base em indicadores relevantes (RF_7).</li><li>Os rankings devem ser apresentados de forma clara, com ordenação automática e possibilidade de filtros (RNF_2 e RNF_1).</li><li>A atualização dos rankings deve ocorrer em tempo real conforme a entrada de novos dados (RNF_3).</li></ul>
 </td>
     <td>3</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
   <tr>
     <td>19</td>
@@ -373,7 +373,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td><ul><li>A página deve conter textos explicativos claros sobre os principais riscos e interpretações das estatísticas (RF_6).</li><li>Devem ser incluídos exemplos, gráficos ou infográficos que ilustrem os conceitos.</li><li>A interface da página deve ser amigável e compatível com as diretrizes de design (RNF_2 e RNF_1).</li></ul>
 </td>
     <td>3</td>
-    <td>Pendente</td>
+    <td>Concluído</td>
   </tr>
 </table>
 
@@ -486,6 +486,102 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
   </tr>
 </table>
 
+
+</details>
+
+Aqui está o backlog da Sprint 2 sem os nomes dos responsáveis:
+
+<h2 align="center"><samp>2° SPRINT BACKLOG</samp></h2>
+
+<details>
+
+<table border="1">
+  <tr>
+    <th>Rank</th>
+    <th>Prioridade</th>
+    <th>Tarefa</th>
+  </tr>
+  <tr>
+    <td>20</td>
+    <td>Alta</td>
+    <td>TDE - Estudo de bootstrap para aplicação.</td>
+  </tr>
+  <tr>
+    <td>21</td>
+    <td>Alta</td>
+    <td>TDE - Python para back-end, para aplicação.</td>
+  </tr>
+  <tr>
+    <td>22</td>
+    <td>Alta</td>
+    <td>TDE - Padrão de commit.</td>
+  </tr>
+  <tr>
+    <td>23</td>
+    <td>Alta</td>
+    <td>Estrutura e estilização das páginas HTML, renderizando o template da página.</td>
+  </tr>
+  <tr>
+    <td>24</td>
+    <td>Alta</td>
+    <td>Arrumar os dados do colab, para implementação no MySQL Workbench.</td>
+  </tr>
+  <tr>
+    <td>25</td>
+    <td>Alta</td>
+    <td>Criação do Banco de dados no MySQL workbench, para começar a integração com o back-end.</td>
+  </tr>
+  <tr>
+    <td>26</td>
+    <td>Alta</td>
+    <td>Criação das páginas do back-end para estruturação da API.</td>
+  </tr>
+  <tr>
+    <td>27</td>
+    <td>Alta</td>
+    <td>Filtro dos gráficos do banco de dados para o back-end para exportação para o front-end.</td>
+  </tr>
+  <tr>
+    <td>28</td>
+    <td>Média</td>
+    <td>Arrumar e configurar o router.py para melhor compreensão do back-end.</td>
+  </tr>
+  <tr>
+    <td>29</td>
+    <td>Média</td>
+    <td>Integração do back-end com o front-end.</td>
+  </tr>
+  <tr>
+    <td>30</td>
+    <td>Média</td>
+    <td>Construção da página index.</td>
+  </tr>
+  <tr>
+    <td>31</td>
+    <td>Média</td>
+    <td>Geração de gráficos do banco de dados para o front.</td>
+  </tr>
+  <tr>
+    <td>32</td>
+    <td>Baixa</td>
+    <td>Consertar e modificar o README.MD.</td>
+  </tr>
+  <tr>
+    <td>33</td>
+    <td>Baixa</td>
+    <td>Carrousel de artigos na página artigos.html.</td>
+  </tr>
+  <tr>
+    <td>34</td>
+    <td>Baixa</td>
+    <td>Construção dos artigos.</td>
+  </tr>
+  <tr>
+    <td>35</td>
+    <td>Baixa</td>
+    <td>Geração de gráficos para os artigos.</td>
+  </tr>
+</table>
 
 </details>
 
