@@ -114,8 +114,8 @@ def pesquisa():
 
 ## Área de Igão.
 pdfs = {
-    1: 'pdfs/as.txt',
-    2: 'pdfs/rpv.txt',
+    1: 'API - 1 Semestre/src/templates/pdfs/as.txt',
+    2: 'API - 1 Semestre/src/templates/pdfs/rpv.txt',
 } 
 
 @app.route('/artigos/exartigo', methods=['POST'])
