@@ -1,0 +1,122 @@
+﻿Análise da Sazonalidade das exportações de São Paulo///
+
+A sazonalidade no comércio refere-se às flutuações na demanda ao longo do ano devido a fatores como datas comemorativas, clima, colheitas agrícolas e eventos econômicos. No Estado de São Paulo, a análise desses padrões permite entender como as empresas ajustam a produção para atender às variações de consumo e exportação.///
+
+Autor: Laura Félix de Paula///
+
+Introdução
+
+A sazonalidade no comércio do estado de São Paulo entre 2013 a 2025 apresentou padrões distintos, especialmente devido a eventos como a pandemia de COVID-19. Tradicionalmente, o comércio paulista registrava picos de vendas nos meses de outubro, novembro e dezembro, impulsionados por datas comemorativas como o Dia das Crianças, Black Friday e Natal. Esses meses representavam, em média, 27,7% das vendas anuais entre 2015 e 2019, com dezembro liderando com 10,3%, seguido por novembro (8,9%) e outubro (8,5%).
+Entretanto, em 2020, as medidas restritivas adotadas para conter a pandemia alteraram significativamente esse padrão. Meses que tradicionalmente apresentavam vendas mais modestas, como maio e junho, tornaram-se mais relevantes devido à reabertura gradual do comércio após períodos de fechamento. Maio de 2020 registrou um aumento de 15,4% nas vendas em relação a abril, que havia sofrido uma queda de 24,4%. Junho também apresentou crescimento de 13,4%, refletindo a demanda reprimida durante as restrições mais rígidas. 
+Além disso, o segundo semestre de 2020 foi mais favorável para o comércio, correspondendo a 56% do faturamento anual, uma diferença de R$ 20 bilhões em comparação com o primeiro semestre. Essa mudança deve-se, em grande parte, às flexibilizações das medidas restritivas que ocorreram nesse período. ​
+Setores específicos também sentiram os impactos dessas mudanças sazonais. Lojas de roupas e calçados, por exemplo, perderam 24% de participação no faturamento total do varejo, enquanto concessionárias de veículos tiveram uma redução de 20,3%. Por outro lado, lojas de materiais de construção e de móveis e decoração viram suas participações aumentarem em 20% e 13,5%, respectivamente, beneficiadas pela realocação dos gastos dos consumidores durante a quarentena.
+Embora os dados específicos para os anos subsequentes não estejam disponíveis nas fontes consultadas, é razoável supor que, com a retomada das atividades econômicas e o avanço da vacinação, o comércio paulista tenha gradualmente retornado aos padrões sazonais pré-pandemia. No entanto, é importante considerar que mudanças nos hábitos de consumo e a crescente digitalização do varejo podem ter introduzido novas dinâmicas na demanda ao longo do ano.
+
+Exportações e Importações: Entre 2013 a 2025, as exportações paulistas cresceram 34,7%, enquanto as importações caíram 20,1%, reduzindo o déficit comercial de US$ 36,9 bilhões para US$ 722 milhões.
+Mudança na Composição das Exportações: A participação da indústria de transformação caiu de 95,6% para 86,5%, enquanto produtos da indústria extrativa (petróleo e gás) e agropecuária (açúcar e soja) ganharam espaço.
+Agropecuária e Indústria de Alimentos: Esses setores têm forte variação sazonal, com picos de exportação dependendo da safra de açúcar e soja.
+Indústria Automobilística: A produção e exportação de veículos registraram variações ao longo dos anos, com oscilações sazonais influenciadas por demanda externa e interna.
+Petróleo e Gás: A demanda por combustíveis pode sofrer oscilações relacionadas a fatores sazonais, como consumo interno no inverno e verão.
+Destaque Regional: A Região Metropolitana de São Paulo perdeu participação nas exportações, enquanto as regiões de Campinas, São José dos Campos, Santos e Sorocaba cresceram.
+São José dos Campos viu um aumento nas exportações de petróleo e derivados, enquanto as vendas de aeronaves e veículos caíram devido a parcerias e mudanças na produção. 
+Campinas e Sorocaba destacaram-se pelo crescimento nas exportações de veículos, especialmente em Sorocaba com a Toyota. Em Campinas, as máquinas e equipamentos lideraram as exportações. 
+A Região Administrativa Central, antes agrícola, passou a exportar mais aeronaves, após a instalação da Embraer, enquanto as exportações de produtos agrícolas, como açúcar e derivados de frutas, tiveram variações.
+
+Considerações
+
+A Região Metropolitana de São Paulo, apesar de continuar liderando as exportações estaduais, foi a que registrou maior perda de participação ao passar de 33,7% (2013) para 21,7% (2023). Já as RAs (Regiões Administrativas) de Campinas, São José dos Campos, Santos e Sorocaba avançaram, permitindo que essas cinco regiões, com atividades industriais diversificadas e de maior valor agregado, concentrassem, 2023, 72,2% das exportações do Estado de São Paulo.
+Em 2020, a pandemia alterou padrões tradicionais, levando a quedas bruscas na demanda no primeiro semestre e recuperação acelerada no segundo, a demanda por produtos médicos e farmacêuticos cresceu, impactando a balança comercial e ajustes na produção industrial.
+Já as demais regiões, seguindo a alta de preços das commodities no mercado internacional, aumentaram suas vendas externas de produtos de origem agropecuária, elevando sua participação nas exportações estaduais de 22,7% (2013) para 27,8% (2023). Esses resultados confirmam que a dinâmica do interior paulista continua apoiada em atividades de baixa intensidade tecnológica.
+Em 2025 espera-se que a economia paulista já tenha se estabilizado e nos nos próximos anos estarão sujeitas a uma combinação de fatores internos (como mudanças regionais e industriais) e externos (como a digitalização, mudanças nas cadeias globais de suprimento e tendências de consumo global). Espera-se que a inovação tecnológica, a sustentabilidade e a adaptação às novas dinâmicas globais desempenhem papéis significativos no comportamento sazonal das exportações do estado.
+
+
+
+Principais produtos exportados por algumas regiões:
+
+
+
+2013
+               2023
+RA São Paulo
+
+
+Automóveis, outros veículos terrestres e seus acessórios
+18,2
+21,4
+Máquinas e equipamentos
+9,1
+10,2
+Açúcares e produtos de confeitaria
+9,7
+9,2
+RA Campinas
+
+
+Máquinas e equipamentos
+28,7
+32,2
+Automóveis, outros veículos terrestres e seus acessórios
+12,1
+7,2
+Máquinas e materiais elétricos, de telefonia, de fotografia e suas partes
+6,7
+5,4
+RA São José dos Campos
+
+
+Combustíveis minerais, óleos minerais e produtos da sua destilação
+4,9
+48,7
+Aeronaves e aparelhos espaciais, e suas partes
+50,7
+19,1
+Automóveis, outros veículos terrestres e seus acessórios
+17,0
+5,6
+RA Santos
+
+
+Sementes, grãos, frutos diversos e plantas industriais ou medicinais
+14,7
+38,0
+Combustíveis minerais, óleos minerais e produtos da sua destilação
+15,1
+26,0
+Açúcares e produtos de confeitaria
+22,1
+12,7
+RA Sorocaba
+
+
+Automóveis, outros veículos terrestres e seus acessórios
+17,1
+30,8
+Máquinas e equipamentos
+18,4
+15,6
+Sementes, grãos, frutos diversos e plantas industriais ou medicinais
+1,7///
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+● Fontes:
+"https://www.fecomercio.com.br/"
+"https://municipios.seade.gov.br/"
+
+
+
+
