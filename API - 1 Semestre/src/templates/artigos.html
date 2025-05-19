@@ -6,7 +6,7 @@
 {% block content %}
 <main class="main-content">
 
-  <!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="pt-br">
 <head>
   <meta charset="UTF-8">
@@ -30,7 +30,8 @@
       flex-direction: column;
       padding-bottom: 50px;
     }
-  
+
+
     main {
       flex: 1;
       padding: 40px 20px;
@@ -43,19 +44,23 @@
       margin-bottom: 40px;
     }
 
+    .carrossel-container {
+      overflow: hidden;
+      position: relative;
+      max-width: 100%;
+    }
+
     .grade-artigos {
       display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 20px;
-      padding-top: 20px;
+      transition: transform 0.5s ease-in-out;
     }
 
     .cartao-artigo {
+      flex: 0 0 33.3333%;
       background-color: #e0e0e0;
       border: 1px solid #ccc;
-      width: 300px;
       border-radius: 8px;
+      margin: 10px;
       text-decoration: none;
       color: #333;
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -114,38 +119,30 @@
       transform: scale(1.05);
     }
 
-    footer {
-      background-color: #6d6c6c;
-      color: #ccc;
-      font-size: 14px;
-      text-align: center;
-      padding: 20px;
+    .carrossel-botoes {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+      gap: 20px;
     }
 
-    footer a {
-      color: #ccc;
-      text-decoration: none;
+    .carrossel-botoes button {
+      background-color: #460101;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      font-weight: bold;
+      cursor: pointer;
     }
 
-    footer a:hover {
-      text-decoration: underline;
+    .carrossel-botoes button:hover {
+      background-color: #b30000;
     }
 
     @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .grade-artigos {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-      }
-
       .cartao-artigo {
-        width: 90%;
-        max-width: 400px;
+        flex: 0 0 100%;
       }
     }
   </style>
@@ -155,45 +152,91 @@
   <main>
     <h1>Artigos</h1>
 
-    <section class="grade-artigos">
+    <div class="carrossel-container">
+      <div class="grade-artigos" id="artigosCarrossel">
 
-      <a href="pdfs\rpv.txt" class="cartao-artigo" target="_blank">
-        <img src="https://citycomex.com/wp-content/uploads/2023/06/A-importancia-da-diversificacao-de-mercados-para-as-empresas-City-Comex.jpg" alt="Exportação">
-        <div class="conteudo">
-          <h2>Risco de Pouca Variedade</h2>
-          <p class="meta">Por <b>João Victor dos Reis</b></p>
-          <p>A diversificação das exportações é essencial para garantir a estabilidade econômica de um município.</p>
-          <form action="/artigos/exartigo" method="POST">
-            <button class="botao-cartao" type="submit" name="id_arquivo" value="2">saiba mais</button>
-        </form>
-        </div>
-      </a>
-
-      <a href="pdfs/as.txt" class="cartao-artigo" target="_blank">
-        <img src="https://neilpatel.com/wp-content/uploads/2023/09/sazonalidade.jpg" alt="Sazonalidade">
-        <div class="conteudo">
-          <h2>Análise de Sazonalidade</h2>
-          <p class="meta">Por <b>Laura Félix de Paula</b></p>
-          <p>A sazonalidade no comércio refere-se às flutuações na demanda ao longo do ano devido a diversos fatores.</p>
-          <form action="/artigos/exartigo" method="POST">
-            <button class="botao-cartao" type="submit" name="id_arquivo" value="1">saiba mais</button>
-        </form>
-        </div>
-      </a>
-      
-
-      <a href="LinkPdf" class="cartao-artigo" target="_blank">
-        <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Sazonalidade">
-        <div class="conteudo">
-          <h2>Artigo 3</h2>
-          <p class="meta">Por <b>Nome</b></p>
-          <p>Descrição</p>
-          <span class="botao-cartao">Saiba mais </span>
-        </div>
+        <a href="pdfs/rpv.txt" class="cartao-artigo" target="_blank">
+          <img src="https://citycomex.com/wp-content/uploads/2023/06/A-importancia-da-diversificacao-de-mercados-para-as-empresas-City-Comex.jpg" alt="Exportação">
+          <div class="conteudo">
+            <h2>Risco de Pouca Variedade</h2>
+            <p class="meta">Por <b>João Victor dos Reis</b></p>
+            <p>A diversificação das exportações é essencial para garantir a estabilidade econômica de um município.</p>
+            <form action="/artigos/exartigo" method="POST">
+              <button class="botao-cartao" type="submit" name="id_arquivo" value="1">Saiba mais</button>
+          </form>
+          </div>
         </a>
 
-    </section>
+        <a href="pdfs/as.txt" class="cartao-artigo" target="_blank">
+          <img src="https://neilpatel.com/wp-content/uploads/2023/09/sazonalidade.jpg" alt="Sazonalidade">
+          <div class="conteudo">
+            <h2>Análise de Sazonalidade</h2>
+            <p class="meta">Por <b>Laura Félix de Paula</b></p>
+            <p>A sazonalidade no comércio refere-se às flutuações na demanda ao longo do ano devido a diversos fatores.</p>
+            <form action="/artigos/exartigo" method="POST">
+              <button class="botao-cartao" type="submit" name="id_arquivo" value="1">Saiba mais</button>
+          </form>
+          </div>
+        </a>
+
+        <a href="Link" class="cartao-artigo" target="_blank">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Artigo 3">
+          <div class="conteudo">
+            <h2>Artigo 3</h2>
+            <p class="meta">Por <b>Nome</b></p>
+            <p>Descrição</p>
+            <span class="botao-cartao">Saiba mais</span>
+          </div>
+        </a>
+
+        <a href="Link" class="cartao-artigo" target="_blank">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Artigo 4">
+          <div class="conteudo">
+            <h2>Artigo 4</h2>
+            <p class="meta">Por <b>Nome</b></p>
+            <p>Descrição</p>
+            <span class="botao-cartao">Saiba mais</span>
+          </div>
+        </a>
+
+        <a href="Links" class="cartao-artigo" target="_blank">
+          <img src="https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=800&q=80" alt="Artigo 4">
+          <div class="conteudo">
+            <h2>Artigo 5</h2>
+            <p class="meta">Por <b>Nome</b></p>
+            <p>Descrição</p>
+            <span class="botao-cartao">Saiba mais</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+
+    <div class="carrossel-botoes">
+      <button onclick="moverCarrossel(-1)">←</button>
+      <button onclick="moverCarrossel(1)">→</button>
+    </div>
   </main>
+
+  <script>
+    let indiceAtual = 0;
+    const artigosPorSlide = 3;
+    const carrossel = document.getElementById('artigosCarrossel');
+    const totalArtigos = carrossel.children.length;
+
+    function moverCarrossel(direcao) {
+      const maxIndice = Math.ceil(totalArtigos / artigosPorSlide) - 1;
+      indiceAtual += direcao;
+
+      if (indiceAtual < 0) indiceAtual = 0;
+      if (indiceAtual > maxIndice) indiceAtual = maxIndice;
+
+      const larguraContainer = document.querySelector('.carrossel-container').offsetWidth;
+      const deslocamento = indiceAtual * larguraContainer;
+
+      carrossel.style.transform = `translateX(-${deslocamento}px)`;
+    }
+  </script>
 
 </body>
 </html>
