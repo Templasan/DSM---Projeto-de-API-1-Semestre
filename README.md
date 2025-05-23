@@ -489,7 +489,6 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 
 </details>
 
-Aqui está o backlog da Sprint 2 sem os nomes dos responsáveis:
 
 <h2 align="center"><samp>2° SPRINT BACKLOG</samp></h2>
 
@@ -585,6 +584,11 @@ Aqui está o backlog da Sprint 2 sem os nomes dos responsáveis:
 
 </details>
 
+<h2 align="center"><samp>3° SPRINT BACKLOG</samp></h2>
+
+<details>
+
+</details>
 <h3 align="center">Protótipo no Figma</h3>
 
 https://github.com/user-attachments/assets/0397777d-11c4-4273-8ff9-f84d585af613
