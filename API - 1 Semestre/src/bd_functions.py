@@ -6,7 +6,7 @@ def get_db_connection():
         database="df_banco",
         port=3306,
         user="root",
-        password="fatec",
+        password="-Templa123",
         cursorclass=pymysql.cursors.DictCursor
     )
     return conn

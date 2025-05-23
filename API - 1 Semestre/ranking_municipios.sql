@@ -18,8 +18,11 @@
 --
 -- Table structure for table `ranking_municipios`
 --
+create database if not exists df_banco;
 
-DROP TABLE IF EXISTS `ranking_municipios`;
+use df_banco;
+
+###DROP TABLE IF EXISTS `ranking_municipios`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
 CREATE TABLE `ranking_municipios` (

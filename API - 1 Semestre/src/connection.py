@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 app.config['MYSQL_HOST'] = 'localhost'  # Endereço do seu servidor MySQL
 app.config['MYSQL_USER'] = 'root'       # Seu usuário do MySQL
-app.config['MYSQL_PASSWORD'] = 'templa'  # Sua senha do MySQL
+app.config['MYSQL_PASSWORD'] = '-Templa123'  # Sua senha do MySQL
 app.config['MYSQL_DB'] = 'teste'         # O nome do banco de dados
 
 #Configurações de conexão ao MySQL

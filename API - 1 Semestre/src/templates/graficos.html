@@ -5,193 +5,48 @@
 
 {% block content %}
 <style>
-  .graficosbox{
-    display: grid;
-    grid-template-areas:
-    "fobvskg evopaises"
-    "evoprodutos evovol"
-    "gsjc greg"
-    "gpand gprojf"
-    "gdiver gdiver";
-    gap: 5%;
+  #idgraficos {
+    text-decoration: underline;
   }
-  .graficosbox img {
-  width: 100%;  /* Faz a imagem preencher a largura da célula */
-  height: 100%; /* Faz a imagem preencher a altura da célula */; /* A imagem vai cobrir a célula sem distorcer */
-}
-* {
-      box-sizing: border-box;
-      margin: 0;
-      padding: 0;
-    }
-
-    html, body {
-      height: 100%;
-      font-family: 'Arial', sans-serif;
-      background-color: #f4f4f4;
-    }
-
-    body {
-      display: flex;
-      flex-direction: column;
-      padding-bottom: 50px;
-    }
-  
-    main {
-      flex: 1;
-      padding: 40px 20px;
-      text-align: center;
-    }
-
-    main h1 {
-      font-size: 36px;
-      color: #460101;
-      margin-bottom: 40px;
-    }
-
-    .grade-artigos {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-around;
-      gap: 20px;
-      padding-top: 20px;
-    }
-
-    .cartao-artigo {
-      background-color: #e0e0e0;
-      border: 1px solid #ccc;
-      width: 300px;
-      border-radius: 8px;
-      text-decoration: none;
-      color: #333;
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s, box-shadow 0.3s;
-      overflow: hidden;
-    }
-
-    .cartao-artigo:hover {
-      transform: translateY(-5px);
-      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
-    }
-
-    .cartao-artigo img {
-      width: 100%;
-      height: 160px;
-      object-fit: cover;
-    }
-
-    .conteudo {
-      padding: 20px;
-    }
-
-    .cartao-artigo h2 {
-      font-size: 20px;
-      color: #460101;
-      margin-bottom: 10px;
-    }
-
-    .cartao-artigo .meta {
-      font-size: 14px;
-      color: #777;
-      margin-bottom: 15px;
-    }
-
-    .cartao-artigo p {
-      font-size: 15px;
-      line-height: 1.5;
-      color: #444;
-    }
-
-    .botao-cartao {
-      display: inline-block;
-      margin-top: 15px;
-      padding: 10px 20px;
-      background-color: #460101;
-      color: #fff;
-      font-weight: bold;
-      border-radius: 5px;
-      font-size: 14px;
-      text-decoration: none;
-      transition: background-color 0.3s, transform 0.3s;
-    }
-
-    .botao-cartao:hover {
-      background-color: #b30000;
-      transform: scale(1.05);
-    }
-
-    footer {
-      background-color: #6d6c6c;
-      color: #ccc;
-      font-size: 14px;
-      text-align: center;
-      padding: 20px;
-    }
-
-    footer a {
-      color: #ccc;
-      text-decoration: none;
-    }
-
-    footer a:hover {
-      text-decoration: underline;
-    }
-
-    @media (max-width: 768px) {
-      header {
-        flex-direction: column;
-        align-items: flex-start;
-      }
-
-      .grade-artigos {
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-      }
-
-      .cartao-artigo {
-        width: 90%;
-        max-width: 400px;
-      }
-    }
 </style>
-<main class="main-content" style="margin-bottom: 40%;">
+<main class="main-content">
   <section class="graficosbox">
-    <div style="grid-area: fobvskg;">
-      <img src="\static\img\Comparativo entre Valor FOB e Quantidade Líquida de importação e exportação nos 10 Municípios Principais.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/Comparativo_entre_Valor_FOB_e_Quantidade_Líquida_de_importação_e_exportação_nos_10_Municípios_Principais.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
     </div>
-    <div style="grid-area: evopaises;">
-      <img src="\static\img\Evolução do Valor FOB dos 5 Principais Países.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/Evolução_do_Valor_FOB_dos_5_Principais_Países.png') }}" alt="">
+
       <span class="botao-cartao">Saiba mais </span>
     </div>
-    <div style="grid-area: evoprodutos;">
-      <img src="\static\img\Evolução do Valor FOB dos 5 Principais Produtos.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/Evolução_do_Valor_FOB_dos_5_Principais_Produtos.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
-    <div style="grid-area: evovol;">
-      <img src="\static\img\Evolução do Volume Exportado (KG) pelos 5 Principais Países.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/Evolucao_do_Volume_Exportado_KG_pelos_5_Principais_Paises.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
-    <div style="grid-area: gsjc;">
-      <img src="\static\img\grafico.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/grafico.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
-    <div style="grid-area: gdiver;">
-      <img src="\static\img\graficoDiversificao.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/graficoDiversificao.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
-    <div style="grid-area: gpand;">
-      <img src="\static\img\graficoPandemia.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/graficoPandemia.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
-    <div style="grid-area: gprojf;">
-      <img src="\static\img\graficoProjecaoFutura.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/graficoProjecaoFutura.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
-    <div style="grid-area: greg;">
-      <img src="\static\img\graficoRegiões.png" alt="">
+    <div>
+      <img src="{{ url_for('static', filename='img/graficoRegiões.png') }}" alt="">
       <span class="botao-cartao">Saiba mais </span>
     </div>
   </section>

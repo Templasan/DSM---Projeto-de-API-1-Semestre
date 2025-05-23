@@ -3,8 +3,12 @@
 {% block title %}KayTrack - Home{% endblock %}
 
 {% block content %}
+<style>
+  #idhome {
+    text-decoration: underline;
+  }
+</style>
 <main>
-
   <!-- Seção de Introdução -->
   <section class="hero">
     <div class="container">
@@ -23,8 +27,8 @@
 
       </div>
       <div class="imagem">
-        <img src="{{ url_for('static', filename='img/mapa.svg') }}" alt="Imagem representando comércio exterior">
-        <p class="legenda">Exemplo de mapa para o estado de São Paulo.</p>
+        <img src="{{ url_for('static', filename='img/graficoRegiões.png') }}" alt="Imagem representando comércio exterior">
+        <p class="legenda">Exemplo de gráfico das regiões.</p>
         <br>
         <a href="#" class="btn">Veja o mapa completo</a>
       </div>
@@ -33,7 +37,7 @@
 
   <!-- Gráficos -->
   <section id="graficos" class="section">
-    <div class="container graficos-flex">
+    <div class="container sobre-flex">
       <div class="imagem">
         <img src="{{ url_for('static', filename='img/grafico.png') }}" alt="Exemplo de gráfico gerado no Colab com Python">
         <p class="legenda">Exemplo de gráfico gerado a partir dos dados da API.</p>
