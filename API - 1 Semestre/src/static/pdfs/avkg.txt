@@ -1,0 +1,76 @@
+﻿A análise da evolução do volume exportado em quilogramas///
+
+Autor: Laura Félix///
+ 
+Destacam-se os seguintes países: 
+
+
+China
+Tendência: A China permanece como maior exportadora mundial, mas vem enfrentando desaceleração no crescimento do volume exportado.
+Volume exportado: Em 2024, a China exportou 466.835 toneladas, representando uma queda de 12,03% em relação a 2023.
+Valor exportado: US$ 61,65 milhões.
+Preço médio por tonelada: US$ 132.
+Variação: O volume diminuiu em 12,03% e o valor caiu em 11,81%, enquanto o preço médio aumentou ligeiramente em 0,25%.
+Motivos: Reestruturação interna do setor manufatureiro, pressões ambientais e mudança de foco para produtos de maior valor agregado, tensões comerciais com EUA e União Europeia.
+
+
+
+
+Estados Unidos
+Tendência: A economia americana mostra resiliência pós-pandemia, com aumento gradual nas exportações em peso, sobretudo de produtos industrializados e agrícolas.
+Volume exportado: 20.560 toneladas em 2024, com um aumento de 5,14% em relação a 2023.
+Valor exportado: US$ 32,47 milhões.
+Preço médio por tonelada: US$ 1.579.
+Variação: O volume cresceu 5,14%, o valor aumentou 2,03%, e o preço médio diminuiu 2,96%.
+
+
+Motivos: Acordo com revisados (USMCA), aumento da demanda por tecnologia, incentivos fiscais.
+
+
+Alemanha
+Tendência: A Alemanha, tradicional exportadora de bens de capital e automóveis, enfrenta queda no volume exportado devido à transformação energética e digital.
+Volume exportado: 115.538 toneladas em 2024, representando uma queda de 6,53% em relação a 2023.
+Valor exportado: US$ 24,56 milhões.
+Preço médio por tonelada: US$ 213.
+Variação: O volume diminuiu 6,53%, o valor caiu 11,24%, e o preço médio reduziu-se em 5,04%.
+Motivos: Transição de veículos elétricos, conflito na Ucrânia afetando a demanda da Europa Ocidental e adoção das políticas de descarbonização.
+
+
+Espanha
+Tendência: Forte queda no volume exportado, especialmente de produtos agrícolas e de baixo valor agregado.
+Volume exportado: 311.945 toneladas em 2024, com uma redução de 16,52% em relação a 2023.
+Valor exportado: US$ 51,15 milhões.
+Preço médio por tonelada: US$ 153.
+Variação: O volume diminuiu 16,52%, o valor caiu 10,69%, e o preço médio aumentou 7,12%.
+Motivos: Condições climáticas afetando a produção, queda na demanda da Europa Ocidental e dependência de mercados internos europeus.
+
+
+França
+Tendência: mantém exportações fortes em setores farmacêutico e cosmético, apesar da leve redução no peso exportado.
+Volume exportado: 355.565 toneladas em 2024, apresentando uma queda de 2,35% em relação a 2023.
+Valor exportado: US$ 103,4 milhões.
+Preço médio por tonelada: US$ 291.
+Variação: O volume diminuiu 2,35%, o valor aumentou 3,34%, e o preço médio subiu 5,83%. 
+Motivos: Fortalecimento de cadeias curtas e produção regional.
+
+
+Fatores Globais que Influenciaram o Volume Exportado
+1. Geopolítica: Sanções, guerras (Ucrânia) e tensões comerciais reconfiguraram fluxos globais.
+2. Cadeias produtivas: Pós-COVID, muitos países optaram por encurtar cadeias, reduzindo importações.
+3. Sustentabilidade: Transição ecológica impulsionou políticas industriais locais e redução de transporte internacional.
+4. Inflação e câmbio: Flutuações de preços e desvalorização monetária afetaram a competitividade dos produtos
+
+
+Considerações Finais
+Embora o volume exportado tenha diminuído em alguns países, o valor das exportações não acompanhou necessariamente essa tendência, indicando que o aumento nos preços médios por tonelada pode ter compensado a redução no volume. Além disso, destaca-se o crescimento significativo das exportações para mercados emergentes, como Kuwait, Vietnã, Arábia Saudita e Itália, refletindo uma diversificação nas rotas comerciais. 
+O Brasil, como exportador de commodities, pode se beneficiar ao observar essas tendências e investir na industrialização com foco em valor agregado.
+
+
+
+
+
+
+* Fontes
+https://assimagra.pt
+https://www.fecomercio.com.br/ 
+https://www.wto.org

@@ -1,0 +1,91 @@
+﻿Análise da Evolução do Valor FOB dos 5 Principais Produtos Exportados 
+
+
+1. Soja em Grão (NCM 1201.90.00)
+Valor FOB médio:
+* 2023: US$ 523/tonelada
+* 2024: US$ 437/tonelada
+Variação: -16,4%
+Análise:
+A soja continua sendo o principal produto da pauta exportadora brasileira, representando mais de 13% do total exportado. A queda no valor FOB reflete um cenário global de superoferta, com safras recordes nos Estados Unidos, Brasil e Argentina, pressionando os preços internacionais. Além disso, a desaceleração da economia chinesa, principal destino da soja brasileira, afetou negativamente a demanda.
+Perspectiva: A tendência de queda pode ser revertida caso haja problemas climáticos em grandes produtores ou um aumento da demanda por biocombustíveis à base de soja.
+
+
+2. Café Verde (NCM 0901.11.10)
+Valor FOB médio:
+   * 2023: US$ 3.456/tonelada
+   * 2024: US$ 3.700/tonelada
+Variação: +7,1%
+Análise:
+O café brasileiro é amplamente reconhecido pela sua qualidade e diversidade de tipos. 
+O aumento no valor FOB reflete uma valorização no mercado internacional, impulsionada por:
+      * Redução da oferta global devido a eventos climáticos adversos no Vietnã e Colômbia;
+      * Crescimento da demanda por cafés especiais;
+      * Câmbio favorável à exportação (real desvalorizado frente ao dólar).
+Perspectiva: A consolidação de nichos de mercado premium e a certificação sustentável podem manter os preços em alta.
+
+
+3. Algodão em Pluma (NCM 5201.00.20)
+Valor FOB médio:
+      * 2023: US$ 1.200/tonelada
+      * 2024: US$ 2.500/tonelada
+Variação: +108,3%
+Análise:
+Esse é o produto com maior variação positiva de valor FOB. Isso se deve a:
+         * Problemas de produção em países asiáticos, como Índia e Paquistão, devido à seca;
+         * Fortalecimento da imagem do Brasil como produtor sustentável e de alta produtividade;
+         * Incentivos à exportação pelo setor agrícola, com apoio de políticas do MAPA e do Mapa Agro+.
+Perspectiva: A tendência é de estabilidade em níveis elevados, especialmente com o avanço da moda sustentável e de matéria-prima rastreável.
+
+
+4. Açúcar de Cana (NCM 1701.99.00)
+Valor FOB médio:
+         * 2023: US$ 502/tonelada
+         * 2024: US$ 500/tonelada
+Variação: -0,4%
+Análise:
+Apesar de sua importância histórica, o açúcar apresenta valor FOB praticamente estável.
+A oscilação nos preços internacionais é influenciada por:
+            * Produção global regulada por Índia, Tailândia e Brasil;
+            * Concorrência crescente de adoçantes artificiais e alimentos de baixo teor de açúcar;
+            * Conflitos logísticos no Mar Vermelho e no Canal de Suez que afetam prazos de entrega.
+Perspectiva: A médio prazo, os preços devem seguir estáveis, com possível valorização se a Índia reduzir sua produção ou suas exportações por questões internas.
+
+
+5. Carnes Desossadas de Bovino
+Valor FOB médio:
+            * 2023: US$ 4.734/tonelada
+            * 2024: US$ 4.505/tonelada
+Variação: -4,8%
+Análise:
+ O Brasil é o maior exportador de carne bovina do mundo.
+ A leve queda no valor FOB é atribuída à:
+               * Redução da demanda chinesa após o controle da inflação alimentar;
+               * Abertura de novos mercados com menor poder de compra (Oriente Médio, África);
+               * Competição de países como Austrália e Índia.
+Apesar da queda no valor, o volume exportado aumentou, o que compensou parcialmente a queda nas receitas.
+Perspectiva: Há oportunidades para crescimento em mercados como Indonésia, Egito e México. A melhoria da rastreabilidade e sustentabilidade será chave para manter ou elevar os preços médios.
+
+
+Fatores que Impactam o Valor FOB no Brasil
+               * Câmbio: A desvalorização do real torna os produtos brasileiros mais competitivos, mas também pressiona os insumos importados.
+               * Infraestrutura: Gargalos logísticos e custos portuários ainda reduzem o potencial de ganho no valor FOB.
+               * Sustentabilidade: Produtos com rastreabilidade e certificação ambiental têm tido maior valorização nos mercados da Europa e Ásia.
+               * Diversificação de Mercados: A abertura de novos mercados, como Vietnã, Irã e Indonésia, permite melhor posicionamento de produtos com menor preço.
+
+
+Conclusão
+A análise da evolução do valor FOB dos principais produtos brasileiros mostra que o país ainda depende fortemente de commodities, mas já apresenta sinais de sofisticação em setores como café e algodão. Para aumentar o valor exportado por tonelada, o Brasil deve:
+               * Investir em tecnologia e inovação no agro;
+               * Aumentar o valor agregado e a rastreabilidade dos produtos;
+               * Melhorar a logística portuária e alfandegária;
+               * Ampliar e diversificar acordos comerciais com países de alta renda.
+
+
+               * Fontes:
+
+
+https://www.fecomercio.com.br/
+https://municipios.seade.gov.br/
+https://en.logcomex.com/
+https://www.gov.br/mdic/pt-br

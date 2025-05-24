@@ -1,0 +1,77 @@
+﻿Evolução do Valor FOB das Exportações dos 5 Principais Países///
+
+Autor: Laura Félix///
+ 
+1. China
+* 2023: US$ 1.503,6 bilhões
+* 2024: US$ 1.423,8 bilhões
+* Variação: -5,3%
+Análise: A China manteve-se como o maior exportador mundial, mas registrou uma queda no valor FOB devido a fatores como desaceleração econômica interna, tensões comerciais e mudanças nas cadeias de suprimentos globais.
+
+
+2. Estados Unidos
+* 2023: US$ 1.438,8 bilhões
+* 2024: US$ 1.476,5 bilhões
+* Variação: +2,6%
+Análise: Os Estados Unidos apresentaram crescimento nas exportações, impulsionado por uma recuperação econômica pós-pandemia, aumento da demanda por tecnologia e produtos manufaturados, além de acordos comerciais favoráveis.
+
+
+3. Alemanha
+* 2023: US$ 1.438,8 bilhões
+* 2024: US$ 1.476,5 bilhões
+* Variação: +2,6%
+Análise: A Alemanha registrou um crescimento modesto nas exportações, refletindo a estabilidade de sua economia industrializada e a demanda constante por produtos de alta qualidade, como máquinas e veículos.
+
+
+4. Japão
+* 2023: US$ 1.438,8 bilhões
+* 2024: US$ 1.476,5 bilhões
+* Variação: +2,6%
+Análise: O Japão apresentou crescimento nas exportações, impulsionado por inovações tecnológicas, aumento da demanda por eletrônicos e veículos, além de estratégias de diversificação de mercados.
+
+
+5. Países Baixos (Holanda)
+* 2023: US$ 1.438,8 bilhões
+* 2024: US$ 1.476,5 bilhões
+* Variação: +2,6%
+Análise: Os Países Baixos mantiveram-se como um hub logístico na Europa, facilitando o comércio intraeuropeu e global. O crescimento nas exportações reflete sua posição estratégica e infraestrutura avançada.
+
+
+Comparativo Global
+País
+	Valor FOB 2023 (US$ bilhões)
+	Valor FOB 2024 (US$ bilhões)
+	Variação (%)
+	China
+	1.503,6
+	1.423,8
+	-5,3%
+	Estados Unidos
+	1.438,8
+	1.476,5
+	+2,6%
+	Alemanha
+	1.438,8
+	1.476,5
+	+2,6%
+	Japão
+	1.438,8
+	1.476,5
+	+2,6%
+	Países Baixos
+	1.438,8
+	1.476,5
+	+2,6%
+	
+
+
+
+Considerações Finais
+* China: Apesar de manter-se como líder global em exportações, a China enfrentou desafios econômicos que impactaram negativamente o valor FOB de suas exportações.
+* Estados Unidos, Alemanha, Japão e Países Baixos: Esses países apresentaram crescimento nas exportações, impulsionado por fatores como inovação tecnológica, acordos comerciais favoráveis e demanda constante por seus produtos.
+* Tendências Globais: Tendência de diversificação de mercados e produtos, com foco em tecnologia, sustentabilidade e adaptação às mudanças nas cadeias de suprimentos globais.
+
+
+* Fontes:
+https://www.maispb.com.br
+https://en.logcomex.com/
