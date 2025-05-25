@@ -5,51 +5,56 @@
 
 {% block content %}
 <style>
-  #idgraficos {
-    text-decoration: underline;
-  }
-</style>
-<main class="main-content">
-  <section class="graficosbox">
-    <div>
-      <img src="{{ url_for('static', filename='img/Comparativo_entre_Valor_FOB_e_Quantidade_Líquida_de_importação_e_exportação_nos_10_Municípios_Principais.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-    </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/Evolução_do_Valor_FOB_dos_5_Principais_Países.png') }}" alt="">
+  .grafico-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 20px;
+            gap: 20px;
+            margin-top: 30px;
+            width: 100%;
 
-      <span class="botao-cartao">Saiba mais </span>
+        }
+        .grafico, .grafico_half {
+            width: 90%;
+            min-width: 450px;
+            background-color: #fff;
+            padding: 30px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .grafico_half{
+          width: 44.525%;
+          min-width: 450px;
+          height: auto;
+        }
+        @media (max-width: 1000px){
+          .grafico_half {
+            width: 90%;
+            min-width: 450px;
+          }
+        }
+</style>
+
+<main class="main-content" >
+ 
+
+  {% if graficos.PROD_EVO_EXP %}
+    <div class="grafico-container">
+        <div class="grafico">{{ graficos.PROD_EVO_EXP|safe }}</div>
+        <div class="grafico_half">{{ graficos.EVO_FOB_PANDEMIA_EXP|safe }}</div>
+        <div class="grafico_half">{{ graficos.COMP_VL_KG|safe }}</div>
+        <div class="grafico">{{ graficos.PAIS_EVO_KG|safe }}</div>
+        <div class="grafico">{{ graficos.PAIS_EVO_FOB_EXP|safe }}</div>
+        
+        
+        
+
+        
+        
     </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/Evolução_do_Valor_FOB_dos_5_Principais_Produtos.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/Evolucao_do_Volume_Exportado_KG_pelos_5_Principais_Paises.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/grafico.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/graficoDiversificao.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/graficoPandemia.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/graficoProjecaoFutura.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-    <div>
-      <img src="{{ url_for('static', filename='img/graficoRegiões.png') }}" alt="">
-      <span class="botao-cartao">Saiba mais </span>
-    </div>
-  </section>
+  {% endif %}
   
 </main>
 {% endblock %}
