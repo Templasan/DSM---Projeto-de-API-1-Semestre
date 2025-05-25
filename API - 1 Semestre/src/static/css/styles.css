@@ -64,22 +64,6 @@ footer p {
   transform: scale(1.1);
 }
 
-.toggle-btn {
-  font-size: 24px;
-  cursor: pointer;
-  color: #fff;
-  background: none;
-  border: none;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.open-btn {
-  display: inline-flex;
-  margin-right: 1rem;
-}
-
 .logo-nav {
   display: flex;
   align-items: center;
