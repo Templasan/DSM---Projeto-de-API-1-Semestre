@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-body {
-  display: flex;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-
 footer {
   background-color: #2c2c2c;
   color: #fff;
@@ -120,25 +114,6 @@ footer p {
   margin-top: 5%;
   padding: 1rem;
   transition: margin-left 0.3s ease;
-}
-
-
-/*Essa table é só exemplo para a página rankings*/
-table,
-td,
-th {
-  border: 1px solid #ddd;
-  text-align: left;
-}
-
-table {
-  border-collapse: collapse;
-  width: 60%;
-}
-
-th,
-td {
-  padding: 15px;
 }
 
 /* Hero Section */
@@ -300,7 +275,6 @@ td {
   line-height: 1.5;
 }
 
-
 html,
 body {
   height: 100%;
@@ -312,7 +286,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
 
 main {
   flex: 1;
@@ -422,7 +395,6 @@ main h1 {
 .carrossel-botoes button:hover {
   background-color: #b30000;
 }
-
 
 .graficosbox {
   display: flex;
@@ -546,5 +518,3 @@ h1 {
   display: grid;
   grid-column: 1fr 1fr;
 }
-
-  
