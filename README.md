@@ -589,6 +589,15 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 <details>
 
 </details>
+
+<br>
+
+## Projeto na AWS
+
+[![AWS](https://img.shields.io/badge/Cloud-AWS-orange)](http://98.84.85.221:5000/)  
+🚀 Acesse o KayTrack: [Clique aqui](http://98.84.85.221:5000/)
+
+
 <h3 align="center">Protótipo no Figma</h3>
 
 https://github.com/user-attachments/assets/0397777d-11c4-4273-8ff9-f84d585af613
