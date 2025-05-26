@@ -342,21 +342,8 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>RF_8, RNF_2, RNF_1, RNF_3</td>
     <td><ul><li>O sistema deve permitir a aplicação de múltiplos filtros (por período, região, setor etc.) durante a pesquisa (RF_8).</li><li>A interface dos filtros deve ser intuitiva e rápida (RNF_2 e RNF_1).</li><li>Os resultados filtrados devem ser precisos e apresentados de forma clara (RNF_3).</li></ul>
 </td>
-    <td>2</td>
-    <td>Pendente</td>
-  </tr>
   <tr>
     <td>17</td>
-    <td>Alta</td>
-    <td>Como empreendedor, eu quero interagir com um mapa responsivo, para visualizar dados logisticos dos municípios em qualquer dispositivo.</td>
-    <td>RF_10, RF_9, RNF_2, RNF_1</td>
-    <td><ul><li>O mapa deve ser interativo e responsivo, adaptando-se a diferentes tamanhos de tela (RNF_2 e RNF_1).</li><li>Deve exibir dados georreferenciados conforme as funcionalidades definidas (RF_10 e RF_9).</li><li>A interação com o mapa deve ser fluida, permitindo zoom, seleção e exibição de informações detalhadas.</li></ul>
-</td>
-    <td>3</td>
-    <td>Pendente</td>
-  </tr>
-  <tr>
-    <td>18</td>
     <td>Alta</td>
     <td>Como investidor, eu quero visualizar rankings que comparem os dados de diferentes municípios, para poder tomar decisões estando informado sobre o mercado.</td>
     <td>RF_7, RNF_2, RNF_1, RNF_3</td>
@@ -366,7 +353,7 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>Concluído</td>
   </tr>
   <tr>
-    <td>19</td>
+    <td>18</td>
     <td>Média</td>
     ⁣<td>Como empreendedor, eu quero uma página explicativa sobre os riscos e significados das estatísticas vistas anteriormente, para entender melhor os dados apresentados.</td>
     <td>RF_6, RNF_2, RNF_1</td>
@@ -587,6 +574,48 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 <h2 align="center"><samp>3° SPRINT BACKLOG</samp></h2>
 
 <details>
+
+<details>
+
+<table border="1">
+  <tr>
+    <th>Rank</th>
+    <th>Prioridade</th>
+    <th>Tarefa</th>
+  </tr>
+  <tr>
+    <td>36</td>
+    <td>Alta</td>
+    <td>US-16, Como analista, eu quero usar filtros abrangentes para refinar a pesquisa, de modo a encontrar rapidamente as informações logísticas.</td>
+  </tr>
+  <tr>
+    <td>41</td>
+    <td>Alta</td>
+    <td>Rankings.html, melhoria da página com gráficos funcionais</td>
+  </tr>
+  <tr>
+    <td>37</td>
+    <td>Média</td>
+    <td>Reeatruturação do CSS da aplicação, afim de deixar o site responsivo e melhor organiazdo.</td>
+  </tr>
+  <tr>
+    <td>42</td>
+    <td>Média</td>
+    <td>Gráficos.html -> Transformar as imagens dos gráficos em gráficos funcionais e visíveis no front-end.</td>
+  </tr>
+  <tr>
+    <td>38</td>
+    <td>Média</td>
+    <td>Criação de novos filtros no colab.</td>
+  </tr>
+  <tr>
+    <td>40</td>
+    <td>Baixa</td>
+    <td>Página artigos.html, criação de novos artigos sobre pandemia e 2016.</td>
+  </tr>
+  
+  
+</table>
 
 </details>
 
