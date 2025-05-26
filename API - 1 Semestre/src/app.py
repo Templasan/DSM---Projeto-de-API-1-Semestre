@@ -4,7 +4,7 @@ from pymysql.cursors import DictCursor
 from bd_functions import get_db_connection, executar_consulta
 import plotly.graph_objs as go
 from plotly.offline import plot
-
+import os
 app = Flask(__name__)
 
 @app.route("/")
@@ -309,10 +309,25 @@ def rankings():
 
 
 ## Área de Igão.
+
+
+
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 pdfs = {
-    1: 'pdfs/as.txt',
-    2: 'pdfs/rpv.txt',
-} 
+    1: os.path.join(BASE_DIR, 'static', 'pdfs', 'as.txt'),
+    2: os.path.join(BASE_DIR, 'static', 'pdfs', 'rpv.txt'),
+    3: os.path.join(BASE_DIR, 'static', 'pdfs', 'ad.txt'),
+    4: os.path.join(BASE_DIR, 'static', 'pdfs', 'avkg.txt'),
+    5: os.path.join(BASE_DIR, 'static', 'pdfs', 'pf.txt'),
+    6: os.path.join(BASE_DIR, 'static', 'pdfs', 'epp.txt'),
+    7: os.path.join(BASE_DIR, 'static', 'pdfs', 'evpp.txt'),
+    8: os.path.join(BASE_DIR, 'static', 'pdfs', 'ier.txt'),
+    9: os.path.join(BASE_DIR, 'static', 'pdfs', 'evpan.txt'),
+    10: os.path.join(BASE_DIR, 'static', 'pdfs', 'ql.txt'),
+
+}
 
 @app.route("/artigos")
 def artigos():
@@ -320,16 +335,22 @@ def artigos():
 
 @app.route('/artigos/exartigo', methods=['POST'])
 def carregar_arquivo():
-    id_arquivo = int(request.form['id_arquivo'])
+    try:
+        id_arquivo = int(request.form['id_arquivo'])
+    except (KeyError, ValueError):
+        return "ID inválido", 400
 
     if id_arquivo in pdfs:
         caminho = pdfs[id_arquivo]
-        with open(caminho, 'r', encoding='utf-8') as f:
-            dados = f.read().split('///')
-        return render_template('exartigos.html', dados=dados)
+        try:
+            with open(caminho, 'r', encoding='utf-8') as f:
+                dados = f.read().split('///')
+            return render_template('exartigos.html', dados=dados)
+        except FileNotFoundError:
+            return "Arquivo não encontrado no servidor.", 404
     else:
-        
         return "Arquivo não encontrado!", 404
+
 
 ## fechamento
 
