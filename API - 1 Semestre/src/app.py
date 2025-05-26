@@ -308,26 +308,6 @@ def rankings():
     return render_template("rankings.html", municipios=municipios, graficos=graficos,municipio=municipio)
 
 
-
-
-@app.route("/pesquisa", methods=["GET", "POST"])
-def pesquisa():
-    dados = []
-    if request.method == "POST":
-        anos = request.form.getlist("anos")
-        
-        if anos:
-            placeholders = ", ".join(["%s"] * len(anos))
-           
-            dados = executar_consulta(f"""
-                SELECT MUN, ANO, KG_LIQUIDO FROM ranking
-                WHERE ANO IN ({placeholders}) AND MUN IN ('SAO JOSE DOS CAMPOS','CAMPINAS','TAUBATE')
-                ORDER BY KG_LIQUIDO DESC
-                LIMIT 10
-            """, params=anos)
-
-    return render_template("pesquisa.html", dados=dados)
-
 ## Área de Igão.
 pdfs = {
     1: 'pdfs/as.txt',
