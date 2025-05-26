@@ -624,6 +624,9 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 [![AWS](https://img.shields.io/badge/Cloud-AWS-orange)](http://98.84.85.221:5000/)  
 🚀 Acesse o KayTrack: [Clique aqui](http://98.84.85.221:5000/)
 
+### QR Code de acesso
+![QR Code para acessar o KayTrack](https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=http://52.204.34.242:5000/)
+
 
 <h3 align="center">Protótipo no Figma</h3>
 
