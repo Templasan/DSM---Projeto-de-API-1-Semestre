@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="{{ url_for('static', filename='img/seu_icone.png') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-beta.1/dist/css/select2.min.css" rel="stylesheet" />
     <title>{% block title %}KayTrack{% endblock %}</title>
 </head>
 <body>
     
 <header>
   <nav class="navbar">
-    <label for="toggle-sidebar" class="toggle-btn open-btn">
-      &#9776; <!-- Ícone três barras -->
-    </label>
-
     <div class="logo logo-nav">
-      <img src="{{ url_for('static', filename='img/logokay.svg') }}" alt="Logo KayTrack" />
+      <a href="/"><img src="{{ url_for('static', filename='img/logokay.svg') }}" alt="Logo KayTrack" /></a>
       <h1>KayTrack</h1>
     </div>
 
