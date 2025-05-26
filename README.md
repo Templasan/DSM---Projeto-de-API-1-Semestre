@@ -575,8 +575,6 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
 
 <details>
 
-<details>
-
 <table border="1">
   <tr>
     <th>Rank</th>
@@ -589,27 +587,27 @@ O objetivo do nosso projeto é disponibilizar uma  ferramenta de consulta e aná
     <td>US-16, Como analista, eu quero usar filtros abrangentes para refinar a pesquisa, de modo a encontrar rapidamente as informações logísticas.</td>
   </tr>
   <tr>
-    <td>41</td>
+    <td>37</td>
     <td>Alta</td>
     <td>Rankings.html, melhoria da página com gráficos funcionais</td>
   </tr>
   <tr>
-    <td>37</td>
+    <td>38</td>
     <td>Média</td>
     <td>Reeatruturação do CSS da aplicação, afim de deixar o site responsivo e melhor organiazdo.</td>
   </tr>
   <tr>
-    <td>42</td>
+    <td>39</td>
     <td>Média</td>
     <td>Gráficos.html -> Transformar as imagens dos gráficos em gráficos funcionais e visíveis no front-end.</td>
   </tr>
   <tr>
-    <td>38</td>
+    <td>40</td>
     <td>Média</td>
     <td>Criação de novos filtros no colab.</td>
   </tr>
   <tr>
-    <td>40</td>
+    <td>41</td>
     <td>Baixa</td>
     <td>Página artigos.html, criação de novos artigos sobre pandemia e 2016.</td>
   </tr>
