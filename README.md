@@ -651,7 +651,7 @@ https://github.com/user-attachments/assets/0397777d-11c4-4273-8ff9-f84d585af613
     <td>João Victor Dos Reis Santos</td>
     <td>PO</td>
     <td><a href="https://github.com/Templasan">Github</a></td>
-    <td><a href="">LinkedIn</a></td>
+    <td><a href="https://br.linkedin.com/in/jo%C3%A3o-victor-dos-reis-santos-1823532b4">LinkedIn</a></td>
   </tr>
   <tr>
     <td>Lucas Inácio de Carvalho</td>
